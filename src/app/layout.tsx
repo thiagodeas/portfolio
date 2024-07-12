@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/assets/Header";
+import { Header } from "@/components/Header";
 
 const lato = Lato({
    subsets: ["latin"], 

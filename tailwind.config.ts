@@ -8,8 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend:{
+      fontSize:{
+        'span': '1.7rem',
+        'link': '1.05rem',
+      },
       colors: {
-      'primary-blue': '#106EB0',
+      'primary-blue': '#00C4ED',
       'primary-orange': '#EC7000',
       'primary-gray': '#33303E',
       'second-gray': '#4E4B59',
