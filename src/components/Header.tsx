@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { NavLink } from "./NavLink"
 
 export const Header = () => {
   return (
@@ -7,11 +8,11 @@ export const Header = () => {
       <span className="text-span font-extrabold tracking-[3px]">thiagodeas</span>
       </Link>
       <nav className="flex items-center gap-5 tracking-wider flex-wrap">
-        <Link href="" className="hover:font-semibold text-link">Início</Link>
-        <Link href="/sobre" className="hover:font-semibold text-link">Sobre mim</Link>
-        <Link href="/tecnologias" className="hover:font-semibold text-link">Tecnologias</Link>
-        <Link href="/projetos" className="hover:font-semibold text-link">Projetos</Link>
-        <Link href="/contato" className="hover:font-semibold text-link">Contato</Link>
+         <NavLink href="/">Início</NavLink>
+         <NavLink href="/sobre">Sobre mim</NavLink>
+         <NavLink href="/tecnologias">Tecnologias</NavLink>
+         <NavLink href="/projetos">Projetos</NavLink>
+         <NavLink href="/contato">Contato</NavLink>
       </nav>
     </header>
   )
