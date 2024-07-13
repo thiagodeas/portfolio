@@ -14,6 +14,7 @@ const config: Config = {
       },
       colors: {
       'primary-blue': '#00C4ED',
+      'second-blue': '#0099cc',
       'primary-orange': '#EC7000',
       'primary-gray': '#33303E',
       'second-gray': '#4E4B59',

@@ -8,7 +8,7 @@ interface NavLinkProps {
 
 export const NavLink = ({href, children}: NavLinkProps)  => {
   return (
-    <Link href={href} className="hover:font-semibold text-link">{children}</Link>
+    <Link href={href} className="font-semibold text-link text-white hover:text-primary-gray transition duration-500 ease-in-out">{children}</Link>
   )
 
 }
