@@ -9,10 +9,10 @@ export const Header = () => {
       </Link>
       <nav className="flex justify-center items-center gap-5 flex-wrap">
          <NavLink href="/">Início</NavLink>
-         <NavLink href="/sobre">Sobre mim</NavLink>
-         <NavLink href="/tecnologias">Tecnologias</NavLink>
-         <NavLink href="/projetos">Projetos</NavLink>
-         <NavLink href="/contato">Contato</NavLink>
+         <NavLink href="/about">Sobre mim</NavLink>
+         <NavLink href="/techs">Tecnologias</NavLink>
+         <NavLink href="/projects">Projetos</NavLink>
+         <NavLink href="/contact">Contato</NavLink>
       </nav>
     </header>
   )
