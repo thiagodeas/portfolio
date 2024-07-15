@@ -12,7 +12,7 @@ export const SocialMediaLink = ({href, icon: Icon, children}: SocialMediaLinkPro
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-primary-blue w-32 h-10 text-center flex items-center justify-center rounded-lg hover:bg-second-blue font-semibold transition duration-700 ease-in-out">
+      className="bg-primary-blue w-32 h-10 text-center flex items-center justify-center content-center rounded-lg hover:bg-second-blue font-semibold transition duration-700 ease-in-out">
       <Icon className="mr-2 text-xl" />
       {children}
     </a>

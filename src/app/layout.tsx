@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 
-const lato = Lato({
+const montserrat = Montserrat({
    subsets: ["latin"], 
    weight: ["400", "700"],
   });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lato.className}>
+      <body className={montserrat.className}>
         <Header />
         {children}
         </body>

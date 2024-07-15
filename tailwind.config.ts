@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend:{
+      screens: {
+        'custom': '1022px',
+      },
       fontSize:{
         'span': '1.7rem',
         'link': '1.05rem',
