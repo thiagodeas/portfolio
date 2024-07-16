@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { FaFileAlt } from "react-icons/fa"
+import { SocialMediaLinkAlt } from "./SocialMediaLinkAlt"
 
 export const AboutSection = () => {
   return (
@@ -11,10 +13,16 @@ export const AboutSection = () => {
         height={500}
          />
       </div>
-      <div className="flex flex-col items-center justify-center w-[600px] text-center gap-y-6 pt-8 pl-4 mt-20">
-        <h2 className="text-4xl font-semibold text-light-blue">Um pouco sobre mim</h2>
-        <p className="text-[1.1rem] tracking-wide">Meu nome é Thiago De Sousa Alves, tenho 22 anos, atualmente estou cursando o terceiro semestre em Análise e Desenvolvimento de Sistemas e sou um apaixonado por tecnologia que decidiu seguir no caminho da programação. Meu primeiro contato com programação foi com Python e logo em seguida conheci o JavaScript, onde aprofundei meus estudos, passando mais de um ano focado no Front-End.</p>
-        <p className="text-[1.1rem] tracking-wide">Após esse tempo me desenvolvendo no Front, resolvi investir uma maior parte do meu tempo para finalmente conhecer o Back-End. Desde então, sigo me aprimorando em Node e Java, com o intuito de me tornar um profissional cada vez mais capacitado.</p>
+      <div className="flex flex-col items-center justify-center w-[600px] text-center gap-y-5 pl-4 mt-14">
+        <h2 className="text-title font-semibold text-light-blue tracking-[2px]">Sobre mim</h2>
+        <p className="text-[1.1rem] tracking-wide">Meu nome é Thiago De Sousa Alves, tenho 22 anos e estou cursando o terceiro semestre em Análise e Desenvolvimento de Sistemas. Sou apaixonado por tecnologia e iniciei minha trajetória na programação com Python, logo depois me aprofundando em JavaScript, onde dediquei mais de um ano ao desenvolvimento Front-End.</p>
+        <p className="text-[1.1rem] tracking-wide">Após essa experiência focada apenas em Front-End, decidi diversificar minhas habilidades e voltei meu foco para o Back-End. Atualmente, estou aprimorando meus conhecimentos em Node e Java, buscando me tornar um profissional cada vez mais capacitado e completo no desenvolvimento de software.</p>
+        <SocialMediaLinkAlt
+        href="/assets/Thiago.pdf"
+        icon={FaFileAlt}
+        >
+        Download CV
+        </SocialMediaLinkAlt>
       </div>
     </section>
   )

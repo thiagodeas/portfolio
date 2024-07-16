@@ -14,6 +14,8 @@ const config: Config = {
       fontSize:{
         'span': '1.7rem',
         'link': '1.05rem',
+        'title': '3rem',
+        'icons': '2.8rem'
       },
       colors: {
       'primary-blue': '#0367A6',
