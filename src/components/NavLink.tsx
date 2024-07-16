@@ -1,5 +1,5 @@
+"use client";
 
-import Link from "next/link";
 import { ReactNode } from "react";
 
 interface NavLinkProps {
@@ -8,8 +8,21 @@ interface NavLinkProps {
 }
 
 export const NavLink = ({href, children}: NavLinkProps)  => {
+  const handleScroll = (e: React.MouseEvent) => {
+    e.preventDefault();
+    const target = document.getElementById(href);
+
+    if(target) {
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }
+  }
+
   return (
-    <Link href={href} className="font-semibold text-link text-white hover:text-primary-gray transition duration-500 ease-in-out no-underline focus:outline-none">{children}</Link>
+    <a href={`#${href}`} onClick={handleScroll} className="font-semibold text-link text-white hover:text-primary-gray transition duration-500 ease-in-out no-underline focus:outline-none">{children}
+    </a>
   )
 
 }

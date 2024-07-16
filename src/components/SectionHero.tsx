@@ -22,7 +22,7 @@ export const SectionHero = ()=>{
           </SocialMediaLink>
         </div>
       </div>
-      <div className="flex items-center justify-center mb-20">
+      <div className="flex items-center justify-center mt-16">
         <Image
         src="/assets/profile.jpeg"
         alt="my-profile"

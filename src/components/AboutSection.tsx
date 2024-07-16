@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const AboutSection = () => {
   return (
-    <section className="flex w-full min-h-screen items-center justify-around">
+    <section id="sobre" className="flex w-full min-h-screen items-center justify-around">
       <div>
         <Image
         src="/assets/about.svg"
