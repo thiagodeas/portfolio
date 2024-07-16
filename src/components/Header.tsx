@@ -3,7 +3,7 @@ import { NavLink } from "./NavLink"
 
 export const Header = () => {
   return (
-    <header className="w-full flex justify-around items-center h-20 bg-primary-orange pl-3 pr-3 fixed top-0 left-0 z-50">
+    <header className="w-full flex justify-around items-center h-20 bg-light-blue pl-3 pr-3 fixed top-0 left-0 z-50">
       <Link href="/" className="focus:outline-none">
       <span className="text-span font-extrabold tracking-[3px] text-white">thiagodeas</span>
       </Link>

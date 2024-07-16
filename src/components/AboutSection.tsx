@@ -3,18 +3,18 @@ import Image from "next/image"
 export const AboutSection = () => {
   return (
     <section id="sobre" className="flex w-full min-h-screen items-center justify-around">
-      <div>
+      <div className="mt-20">
         <Image
         src="/assets/about.svg"
         alt="about-me-illustration"
-        width={600}
+        width={570}
         height={500}
          />
       </div>
-      <div className=" flex flex-col items-center justify-center w-[600px] text-center gap-y-16">
-        <h2 className="text-4xl font-semibold">Um pouco sobre mim</h2>
-        <p className="text-[1.1rem] tracking-wide">Meu nome é Thiago De Sousa Alves, tenho 22 anos, atualmente estou cursando o terceiro semestre em Análise e Desenvolvimento de Sistemas e sou um apaixonado por tecnologia que decidiu seguir no caminho da programação. Meu primeiro contato com programação foi com Python e logo em seguida conheci o JavaScript, onde aprofundei meus estudos, passando mais de um ano focado no Front-End. <br />
-        Após esse tempo me desenvolvendo no Front, resolvi investir uma maior parte do meu tempo para finalmente conhecer o Back-End. Desde então, sigo me aprimorando em Node e Java, com o intuito de me tornar um profissional cada vez mais capacitado.</p>
+      <div className="flex flex-col items-center justify-center w-[600px] text-center gap-y-6 pt-8 pl-4 mt-20">
+        <h2 className="text-4xl font-semibold text-light-blue">Um pouco sobre mim</h2>
+        <p className="text-[1.1rem] tracking-wide">Meu nome é Thiago De Sousa Alves, tenho 22 anos, atualmente estou cursando o terceiro semestre em Análise e Desenvolvimento de Sistemas e sou um apaixonado por tecnologia que decidiu seguir no caminho da programação. Meu primeiro contato com programação foi com Python e logo em seguida conheci o JavaScript, onde aprofundei meus estudos, passando mais de um ano focado no Front-End.</p>
+        <p className="text-[1.1rem] tracking-wide">Após esse tempo me desenvolvendo no Front, resolvi investir uma maior parte do meu tempo para finalmente conhecer o Back-End. Desde então, sigo me aprimorando em Node e Java, com o intuito de me tornar um profissional cada vez mais capacitado.</p>
       </div>
     </section>
   )
