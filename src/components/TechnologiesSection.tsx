@@ -6,7 +6,7 @@ import { IconContainer } from "./IconContainer"
 
 export const TechnologiesSection = () => {
   return (
-    <section id="tecnologias" className="w-full min-h-screen flex flex-col justify-center items-center gap-y-20">
+    <section id="tecnologias" className="custom-container">
       <div className="flex flex-col items-center justify-center mt-16">
         <h2 className="text-title font-semibold text-primary-blue tracking-[2px]">Tecnologias</h2>
         <p className="text-[1.2rem] w-[700px] mt-10 text-center">Desenvolvi um amplo conjunto de habilidades em várias tecnologias e ferramentas ao longo desse tempo, que abrangem desde linguagens de programação até metodologias de desenvolvimento, incluindo:

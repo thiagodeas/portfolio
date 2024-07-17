@@ -10,8 +10,8 @@ export const Header = () => {
          <NavLink href="inicio">Início</NavLink>
          <NavLink href="sobre">Sobre mim</NavLink>
          <NavLink href="tecnologias">Tecnologias</NavLink>
-         <NavLink href="projects">Projetos</NavLink>
-         <NavLink href="contact">Contato</NavLink>
+         <NavLink href="projetos">Projetos</NavLink>
+         <NavLink href="contato">Contato</NavLink>
       </nav>
     </header>
   )
