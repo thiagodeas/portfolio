@@ -50,7 +50,7 @@ export const TechnologiesSection = () => {
         </IconContainer>
 
         <IconContainer>
-          <RiTailwindCssFill className="text-icons text-light-blue"/>
+          <IoLogoNodejs className="text-icons text-green-600"/>
           <p className="text-light-blue">Node.js</p>
         </IconContainer>
 

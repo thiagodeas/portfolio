@@ -1,6 +1,6 @@
 import { IoLogoGithub } from "react-icons/io"
 
-interface CardProps {
+export interface CardProps {
   name: string;
   description: string;
   html_url: string;
@@ -9,7 +9,7 @@ interface CardProps {
 export const Card = ({ name, description, html_url } : CardProps) => {
   return (
     <div 
-    className="bg-soft-blue w-[400px] h-[300px] rounded-[8px] flex flex-col items-center justify-between p-5 text-center shadow-md shadow-medium-blue"
+    className="bg-soft-blue w-[300px] h-[300px] rounded-[8px] flex flex-col items-center justify-between p-5 text-center shadow-md shadow-medium-blue"
     >
       <h3 className="font-semibold">{name}</h3>
       <p>{description}</p>
