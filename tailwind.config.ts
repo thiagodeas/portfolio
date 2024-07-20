@@ -12,10 +12,10 @@ const config: Config = {
         'custom': '1022px',
       },
       fontSize:{
-        'span': '1.7rem',
+        'span': '2.3rem',
         'link': '1.05rem',
         'title': '3rem',
-        'icons': '2.8rem'
+        'icons': '2.5rem'
       },
       colors: {
       'primary-blue': '#004D99',

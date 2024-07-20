@@ -5,3 +5,12 @@
 .custom-container {
   @apply w-full min-h-screen flex flex-col justify-center items-center gap-y-20;
 }
+
+.custom-font-logo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.custom-font-link{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
