@@ -18,11 +18,11 @@ const config: Config = {
         'icons': '2.8rem'
       },
       colors: {
-      'primary-blue': '#0367A6',
-      'medium-blue': '#0468BF',
-      'light-blue': '#048ABF',
-      'soft-blue': '#4EBFD9',
-      'primary-green': '#025949',
+      'primary-blue': '#004D99',
+      'turq-blue': '#00B2E2',
+      'light-coral': '#FF6F61',
+      'med-gray': '#B0BEC5',
+      'white': '#ffffff',
     },
   },
 },

@@ -16,67 +16,67 @@ export const TechnologiesSection = () => {
 
         <IconContainer>
           <IoLogoJavascript className="text-icons bg-yellow-400"/>
-          <p className="text-light-blue">JavaScript</p>
+          <p className="text-primary-blue">JavaScript</p>
         </IconContainer>
         
         <IconContainer>
           <SiTypescript className="text-icons text-blue-600"/>
-          <p className="text-light-blue">TypeScript</p>
+          <p className="text-primary-blue">TypeScript</p>
         </IconContainer>
 
         <IconContainer>
           <FaJava className="text-icons text-orange-700"/>
-          <p className="text-light-blue">Java</p>
+          <p className="text-primary-blue">Java</p>
         </IconContainer>
 
         <IconContainer>
           <FaReact className="text-icons text-blue-400"/>
-          <p className="text-light-blue">React</p>
+          <p className="text-primary-blue">React</p>
         </IconContainer>
 
         <IconContainer>
           <SiStyledcomponents className="text-icons text-pink-700"/>
-          <p className="text-light-blue">Styled Components</p>
+          <p className="text-primary-blue">Styled Components</p>
         </IconContainer>
 
         <IconContainer>
-          <RiTailwindCssFill className="text-icons text-light-blue"/>
-          <p className="text-light-blue">Tailwind</p>
+          <RiTailwindCssFill className="text-icons text-turq-blue"/>
+          <p className="text-primary-blue">Tailwind</p>
         </IconContainer>
 
         <IconContainer>
           <RiNextjsFill className="text-icons"/>
-          <p className="text-light-blue">Next.js</p>
+          <p className="text-primary-blue">Next.js</p>
         </IconContainer>
 
         <IconContainer>
           <IoLogoNodejs className="text-icons text-green-600"/>
-          <p className="text-light-blue">Node.js</p>
+          <p className="text-primary-blue">Node.js</p>
         </IconContainer>
 
         <IconContainer>
           <SiAxios className="text-icons text-primary-blue"/>
-          <p className="text-light-blue">Axios</p>
+          <p className="text-primary-blue">Axios</p>
         </IconContainer>
 
         <IconContainer>
           <IoLogoGithub className="text-icons"/>
-          <p className="text-light-blue">GitHub</p>
+          <p className="text-primary-blue">GitHub</p>
         </IconContainer>
 
         <IconContainer>
           <FaGitAlt className="text-icons text-red-600"/>
-          <p className="text-light-blue">Git</p>
+          <p className="text-primary-blue">Git</p>
         </IconContainer>
 
         <IconContainer>
           <SiInsomnia className="text-icons text-purple-800"/>
-          <p className="text-light-blue">Insomnia</p>
+          <p className="text-primary-blue">Insomnia</p>
         </IconContainer>
 
         <IconContainer>
           <SiMysql className="text-icons text-blue-800"/>
-          <p className="text-light-blue">MySQL</p>
+          <p className="text-primary-blue">MySQL</p>
         </IconContainer>
       </div>
     </section>

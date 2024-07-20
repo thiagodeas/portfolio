@@ -21,7 +21,7 @@ export const NavLink = ({href, children}: NavLinkProps)  => {
   }
 
   return (
-    <a href={`#${href}`} onClick={handleScroll} className="font-semibold text-link text-white hover:text-soft-blue transition duration-700 ease-in-out no-underline focus:outline-none">{children}
+    <a href={`#${href}`} onClick={handleScroll} className="font-semibold text-link text-white hover:text-light-coral transition duration-700 ease-in-out no-underline focus:outline-none">{children}
     </a>
   )
 
