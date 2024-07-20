@@ -24,7 +24,7 @@ export const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col items-center justify-start gap-y-5">
-      <div className="flex items-center border-2 h-10 w-[380px] rounded-lg p-2">
+      <div className="flex items-center border-2 border-turq-blue h-10 w-[380px] rounded-lg p-2">
         <label htmlFor="name" />
         <input
         className="w-full outline-none"
@@ -36,7 +36,7 @@ export const ContactForm = () => {
         onChange={handleChange}
         />
       </div>
-      <div className="flex items-center border-2 h-10 w-[380px] rounded-lg p-2">
+      <div className="flex items-center border-2 border-turq-blue h-10 w-[380px] rounded-lg p-2">
         <label htmlFor="email" />
         <input
         className="w-full outline-none"
@@ -48,7 +48,7 @@ export const ContactForm = () => {
         onChange={handleChange}
         />
       </div>
-      <div className="flex items-center border-2 h-[250px] w-[380px] rounded-lg">
+      <div className="flex items-center border-2 border-turq-blue h-[250px] w-[380px] rounded-sm">
         <label htmlFor="message" />
         <textarea
         className="w-full h-full flex p-2 outline-none"
@@ -59,7 +59,7 @@ export const ContactForm = () => {
         onChange={handleChange}
         />
       </div>
-      <button type="submit" className="flex items-center justify-center text-center border-2 h-10 w-[130px] rounded-lg p-2">Enviar</button>
+      <button type="submit" className="flex items-center justify-center text-center border-[1px] border-turq-blue h-10 w-[130px] rounded-lg p-2 bg-med-gray hover:bg-primary-blue hover:text-light-coral transition-all ease-in-out duration-700">Enviar</button>
     </form>
   )
 }

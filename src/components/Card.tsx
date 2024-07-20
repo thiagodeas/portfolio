@@ -6,7 +6,6 @@ export interface CardProps {
   html_url: string;
   languages?: string[];
 }
-
 export const Card = ({ name, description, html_url, languages }: CardProps) => {
   return (
     <div className="flex flex-col items-center">
