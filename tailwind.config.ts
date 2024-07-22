@@ -23,6 +23,7 @@ const config: Config = {
       'light-coral': '#FF6F61',
       'med-gray': '#B0BEC5',
       'white': '#ffffff',
+      'sec-white': '#f5f5f5',
     },
   },
 },

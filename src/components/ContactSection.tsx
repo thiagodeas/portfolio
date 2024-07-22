@@ -5,7 +5,7 @@ import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 export const ContactSection = () => {
   return (
     <section id="contato" className="w-full min-h-screen flex justify-center items-center">
-      <div className="mt-24 flex items-start justify-center flex-col">
+      <div className="mt-20 flex items-start justify-center flex-col">
         <h2 className="text-title font-bold text-primary-blue pb-3">Entre em contato</h2>
         <ContactForm />
       </div>
@@ -28,7 +28,7 @@ export const ContactSection = () => {
         alt="contact-illustration"
         height={300}
         width={350}
-        className="flex items-center justify-center mt-12 ml-14"
+        className="flex items-center justify-center mt-12 ml-16"
         />
     </section>
   )
