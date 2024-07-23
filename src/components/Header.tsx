@@ -2,7 +2,7 @@ import { NavLink } from "./NavLink"
 
 export const Header = () => {
   return (
-    <header className="w-full flex justify-around items-center h-20 bg-light-blue pl-3 pr-3 fixed top-0 left-0 z-50 bg-primary-blue">
+    <header className="w-full flex justify-around items-center h-20 pl-3 pr-3 fixed top-0 left-0 z-50 bg-primary-blue">
       <NavLink href="inicio">
       <span className="text-[2.2rem] font-extrabold tracking-widest no-underline focus:outline-none">&lt; TS /&gt;</span>
       </NavLink>
