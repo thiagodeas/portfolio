@@ -10,6 +10,21 @@ const config: Config = {
     extend:{
       screens: {
         'custom': '1022px',
+        'max1070': {'max': '1070px'},
+        'max1060': {'max': '1060px'},
+        'max1000': {'max': '1000px'},
+        'max950': {'max': '950px'},
+        'max900': {'max': '900px'},
+        'max770': {'max': '770px'},
+        'max715': {'max': '715px'},
+        'max700': {'max': '700px'},
+        'max675': {'max': '675px'},
+        'max620': {'max': '620px'},
+        'max575': {'max': '575px'},
+        'max520': {'max': '520px'},
+        'max500': {'max': '500px'},
+        'max400': {'max': '400px'},
+        'max375': {'max': '375px'},
       },
       fontSize:{
         'span': '2.3rem',
