@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const SectionHero = () => {
   return (
-    <section id="inicio" className="w-full min-h-screen flex justify-around items-center mt-10 max1000:flex-col max1000:mt-20">
-      <div className="flex flex-col justify-center items-center ml-8">
+    <section id="inicio" className="w-full min-h-screen flex justify-around items-center mt-10 max1000:flex-col max1000:mt-20 overflow-x-hidden">
+      <div className="flex flex-col justify-center items-center">
         <p className=" flex text-[2.8rem] font-light max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem] ">Thiago Sousa</p>
         <p className="text-6xl text-medium-blue font-extrabold text-primary-blue max1070:text-[3rem] max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem] flex">Software Developer</p>
         <p className="flex text-xl text-primary-blue opacity-65 max620:text-[1.2rem] max575:text-[1rem] max575:text-center">Desenvolvedor apaixonado por tecnologia e inovação.</p>
