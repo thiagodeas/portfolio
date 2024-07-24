@@ -15,7 +15,9 @@ const config: Config = {
         'max1000': {'max': '1000px'},
         'max950': {'max': '950px'},
         'max900': {'max': '900px'},
+        'max870': {'max': '870px'},
         'max770': {'max': '770px'},
+        'max720': {'max': '720px'},
         'max715': {'max': '715px'},
         'max700': {'max': '700px'},
         'max675': {'max': '675px'},
@@ -28,6 +30,7 @@ const config: Config = {
         'max425': {'max': '425px'},
         'max400': {'max': '400px'},
         'max375': {'max': '375px'},
+        'max367': {'max': '367px'},
       },
       fontSize:{
         'span': '2.3rem',

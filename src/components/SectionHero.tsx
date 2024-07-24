@@ -8,7 +8,7 @@ export const SectionHero = () => {
       <div className="flex flex-col justify-center items-center mb-12">
         <p className="flex text-[2.8rem] font-light max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Thiago Sousa</p>
         <p className="text-6xl text-medium-blue font-extrabold text-primary-blue max1070:text-[3rem] max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Software Developer</p>
-        <p className="flex text-xl text-primary-blue opacity-65 max620:text-[1.2rem] max575:text-[1rem] max575:text-center max480:flex-wrap max400:text-[15px] max375:text-[14px]">Desenvolvedor apaixonado por tecnologia e inovação.</p>
+        <p className="flex text-xl text-primary-blue opacity-65 max620:text-[1.2rem] max575:text-[1rem] max575:text-center max480:flex-wrap max400:text-[15px] max375:text-[14px] max367:hidden">Desenvolvedor apaixonado por tecnologia e inovação.</p>
         <div className="flex items-center justify-center gap-24 pt-8 text-center max520:gap-12">
           <SocialMediaLink
             href="https://github.com/thiagodeas"
