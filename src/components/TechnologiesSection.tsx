@@ -7,8 +7,8 @@ import Image from "next/image"
 
 export const TechnologiesSection = () => {
   return (
-    <section id="tecnologias" className="w-full min-h-screen flex justify-around items-center">
-      <div className="flex flex-col items-center justify-center mt-16">
+    <section id="tecnologias" className="w-full min-h-screen flex justify-center items-center gap-x-20">
+      <div className="flex flex-col items-center justify-center mt-10">
         <h2 className="text-title font-semibold text-primary-blue tracking-[2px]">Tecnologias</h2>
         <p className="text-[1.1rem] w-[700px] mb-10 mt-2 text-center">Desenvolvi um amplo conjunto de habilidades em várias tecnologias e ferramentas ao longo desse tempo, que abrangem desde linguagens de programação até metodologias de desenvolvimento, incluindo:
         </p>
@@ -79,15 +79,15 @@ export const TechnologiesSection = () => {
           </IconContainer>
         </div>
       </div>
-     <div className="flex flex-col items-center">
+     <div className="flex flex-col items-center mt-16">
       <Image
         src="/assets/tech-illustration.svg"
         alt="tech-illustration"
         height={400}
         width={430}
-        className="border-4 border-primary-blue border-double rounded-lg p-3"
+        className="border-4 border-primary-blue border-double rounded-lg p-3 h-[300px] w-[300px]"
         />
-         <div className="w-[350px] h-0 border-b-8 border-dashed border-light-coral mt-12"></div>
+         <div className="w-[300px] h-0 border-b-8 border-dashed border-light-coral mt-12"></div>
      </div>
     </section>
   )
