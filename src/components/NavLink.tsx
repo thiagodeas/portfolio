@@ -14,7 +14,7 @@ export const NavLink = ({ href, children }: NavLinkProps) => {
     scroller.scrollTo(href, {
       duration: 700, // Tempo de rolagem em milissegundos
       smooth: true,
-      offset: -250, // Ajuste o deslocamento conforme necessário
+      offset: -270, // Ajuste o deslocamento conforme necessário
     });
   };
 
