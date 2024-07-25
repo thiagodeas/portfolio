@@ -10,7 +10,7 @@ Bem-vindo ao repositório do meu portfólio pessoal, desenvolvido com Next.js e 
 - **React Scroll**: Para navegação suave entre seções da página.
 - **Axios**: Para fazer requisições à API do GitHub para mostrar meus projetos.
 - **React Icons**: Para adicionar ícones ao projeto.
-- **Animate-On-Scroll: Para adicionar animação no scroll da página.
+- **Animate-On-Scroll**: Para adicionar animação no scroll da página.
 
 ## Objetivos do Projeto 💡
 
