@@ -4,7 +4,7 @@ import { SocialMediaLinkAlt } from "./SocialMediaLinkAlt"
 
 export const AboutSection = () => {
   return (
-    <section id="sobre" className="flex w-full min-h-screen items-center justify-center gap-x-20 max1070:flex-col-reverse">
+    <section id="sobre" className="flex w-full min-h-screen items-center justify-center gap-x-20 max1070:flex-col-reverse" data-aos="zoom-in-up">
       <div className="mt-20 max1070:mt-0">
         <Image
         src="/assets/about-illustration.svg"

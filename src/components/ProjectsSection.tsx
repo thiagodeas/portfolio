@@ -33,7 +33,7 @@ export const ProjectsSection = () => {
   }, []);
 
   return (
-    <section id="projetos" className="w-full min-h-screen flex flex-col justify-center items-center pt-36 pb-20 px-4">
+    <section id="projetos" className="w-full min-h-screen flex flex-col justify-center items-center pt-36 pb-20 px-4" data-aos="zoom-in-up">
       <h2 className="text-title font-semibold text-primary-blue tracking-[2px] text-center pb-12 max400:text-[2.5rem]">Projetos</h2>
       <div className="flex items-center justify-center gap-10 flex-wrap">
         {loading && <p>Carregando projetos...</p>}

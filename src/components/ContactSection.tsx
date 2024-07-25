@@ -5,7 +5,7 @@ import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 export const ContactSection = () => {
   return (
-    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col">
+    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col" data-aos="zoom-in-up" data-aos-duration="1500">
       <div className="mt-16 flex items-center justify-center flex-col">
         <h2 className="text-center text-title font-bold text-primary-blue pb-3 max700:text-[2.5rem] max700:mt-8 max367:text-[2rem]">Entre em contato</h2>
         <p className="text-center text-xl text-primary-blue opacity-65 pb-3 max575:text-[18px] max500:text-[1rem] max375:hidden">Sinta-se à vontade para entrar em contato comigo =)</p>
