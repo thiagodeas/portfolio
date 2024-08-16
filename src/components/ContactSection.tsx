@@ -7,11 +7,11 @@ import { TbBrandYoutube } from "react-icons/tb";
 
 export const ContactSection = () => {
   return (
-    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col" data-aos="zoom-in-up" data-aos-duration="1500">
-      <div className="mt-16 flex items-center justify-center flex-col">
+    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col" data-aos="zoom-in-up">
+      <div className="flex items-center justify-center flex-col">
         <h2 className="text-center text-title font-bold text-primary-blue pb-3 max700:text-[2.5rem] max700:mt-8 max367:text-[2rem]">Entre em contato</h2>
         <p className="text-center text-xl text-primary-blue opacity-65 pb-3 max575:text-[18px] max500:text-[1rem] max375:hidden">Sinta-se à vontade para entrar em contato comigo =)</p>
-        <div className="flex flex-col justify-center items-center gap-4 border-2 border-light-coral border-dashed rounded-lg p-4 mt-4">
+        <div className="flex flex-col justify-center items-center gap-2 border-2 border-light-coral border-dashed rounded-lg p-4 mt-4">
             <div className="flex items-center justify-center">
             <span className="text-x1 pr-2 max550:hidden">No LinkedIn: </span>
             <a href="https://www.linkedin.com/in/thiagodsousa/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-x-2 rounded-lg p-1 hover:bg-primary-blue hover:text-light-coral transition-all ease-in-out duration-700">
