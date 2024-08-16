@@ -1,7 +1,7 @@
-import { FaGitAlt, FaJava, FaReact } from "react-icons/fa"
+import { FaAngular, FaAws, FaGitAlt, FaJava, FaReact } from "react-icons/fa"
 import { IoLogoGithub, IoLogoJavascript, IoLogoNodejs } from "react-icons/io"
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
-import { SiAxios, SiInsomnia, SiMysql, SiStyledcomponents, SiTypescript } from "react-icons/si"
+import { SiAxios, SiInsomnia, SiMysql, SiPostgresql, SiPostman, SiSpringboot, SiStyledcomponents, SiTypescript } from "react-icons/si"
 import { IconContainer } from "./IconContainer"
 
 export const TechnologiesSection = () => {
@@ -13,6 +13,16 @@ export const TechnologiesSection = () => {
         </p>
         <div className="flex flex-row items-center justify-center gap-x-10 border-b-2 border-dashed pb-4 border-soft-blue flex-wrap w-[900px] gap-y-10 max870:w-[600px] max620:w-[500px] max550:w-[450px] max480:w-[350px] max367:w-[300px]">
           <IconContainer>
+            <FaJava className="text-icons text-orange-700 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Java</p>
+          </IconContainer>
+
+          <IconContainer>
+            <SiSpringboot className="text-icons text-green-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Spring Boot</p>
+          </IconContainer>
+
+          <IconContainer>
             <IoLogoJavascript className="text-icons bg-yellow-400 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">JavaScript</p>
           </IconContainer>
@@ -23,23 +33,13 @@ export const TechnologiesSection = () => {
           </IconContainer>
 
           <IconContainer>
-            <FaJava className="text-icons text-orange-700 transition-all ease-in-out duration-500"/>
-            <p className="text-primary-blue text-sm">Java</p>
-          </IconContainer>
-
-          <IconContainer>
             <FaReact className="text-icons text-blue-400 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">React</p>
           </IconContainer>
 
           <IconContainer>
-            <SiStyledcomponents className="text-icons text-pink-700 transition-all ease-in-out duration-500"/>
-            <p className="text-primary-blue text-sm">Styled Components</p>
-          </IconContainer>
-
-          <IconContainer>
-            <RiTailwindCssFill className="text-icons text-turq-blue transition-all ease-in-out duration-500"/>
-            <p className="text-primary-blue text-sm">Tailwind</p>
+            <FaAngular className="text-icons text-red-700 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Angular</p>
           </IconContainer>
 
           <IconContainer>
@@ -50,6 +50,16 @@ export const TechnologiesSection = () => {
           <IconContainer>
             <IoLogoNodejs className="text-icons text-green-600 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">Node.js</p>
+          </IconContainer>
+
+          <IconContainer>
+            <SiStyledcomponents className="text-icons text-pink-700 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Styled Components</p>
+          </IconContainer>
+
+          <IconContainer>
+            <RiTailwindCssFill className="text-icons text-turq-blue transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Tailwind CSS</p>
           </IconContainer>
 
           <IconContainer>
@@ -68,6 +78,11 @@ export const TechnologiesSection = () => {
           </IconContainer>
 
           <IconContainer>
+            <SiPostman className="text-icons text-orange-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Postman</p>
+          </IconContainer>
+
+          <IconContainer>
             <SiInsomnia className="text-icons text-purple-800 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">Insomnia</p>
           </IconContainer>
@@ -76,6 +91,17 @@ export const TechnologiesSection = () => {
             <SiMysql className="text-icons text-blue-800 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">MySQL</p>
           </IconContainer>
+
+          <IconContainer>
+            <SiPostgresql className="text-icons text-blue-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Postgresql</p>
+          </IconContainer>
+
+          <IconContainer>
+            <FaAws className="text-icons transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">AWS</p>
+          </IconContainer>
+
         </div>
       </div>
     </section>

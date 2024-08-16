@@ -1,7 +1,9 @@
 import Image from "next/image";
 import { CgMail } from "react-icons/cg";
+import { CiYoutube } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
+import { TbBrandYoutube } from "react-icons/tb";
 
 export const ContactSection = () => {
   return (
@@ -41,6 +43,15 @@ export const ContactSection = () => {
             <span className="text-xl">/thiagodeas</span>
           </a>
             </div>
+
+            <div className="flex items-center justify-center">
+            <span className="text-x1 pr-2 max550:hidden">Visite meu canal no YT: </span>
+            <a href="https://www.youtube.com/@thiagodeas" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-x-2 rounded-lg p-1 hover:bg-primary-blue hover:text-light-coral transition-all ease-in-out duration-700">
+            <TbBrandYoutube className="text-2xl" />
+            <span className="text-xl">/thiagodeas</span>
+          </a>
+            </div>
+
           <span className="max550:hidden">Ou, se preferir, me mande uma mensagem no WhatsApp: </span>
           <a href="https://api.whatsapp.com/send?phone=5585986988198&text=Oi,%20Thiago.%20Estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20seu%20site%20de%20portf%C3%B3lio." 
           target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-x-2 rounded-lg p-1 hover:bg-primary-blue hover:text-light-coral transition-all ease-in-out duration-700">
