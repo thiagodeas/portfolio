@@ -9,7 +9,7 @@ export const TechnologiesSection = () => {
     <section id="tecnologias" className="w-full min-h-screen flex justify-center items-center gap-x-20" data-aos="zoom-in-up">
       <div className="flex flex-col items-center justify-center mt-10 max870:mt-20 w-[600px]">
         <h2 className="text-title font-semibold text-primary-blue tracking-[2px] mt-8 max620:text-[2.5rem] max480:text-[2rem]">Tecnologias</h2>
-        <p className="text-[1.1rem] w-[700px] mb-10 mt-4 text-center max720:w-[600px] max620:w-[500px] max550:w-[450px] max480:w-[350px] max400:text-[15px] max400:w-[300px]">Desenvolvi um amplo conjunto de habilidades em várias tecnologias e ferramentas ao longo desse tempo, que abrangem desde linguagens de programação até metodologias de desenvolvimento, incluindo:
+        <p className="text-[1.1rem] w-[700px] mb-10 mt-4 text-center max720:w-[600px] max620:w-[500px] max550:w-[450px] max480:w-[350px] max400:text-[15px] max400:w-[300px]">Desenvolvi um amplo conjunto de habilidades em várias tecnologias e ferramentas ao longo desse tempo, incluindo:
         </p>
         <div className="flex flex-row items-center justify-center gap-x-10 border-b-2 border-dashed pb-4 border-soft-blue flex-wrap w-[900px] gap-y-10 max870:w-[600px] max620:w-[500px] max550:w-[450px] max480:w-[350px] max367:w-[300px]">
           <IconContainer>
