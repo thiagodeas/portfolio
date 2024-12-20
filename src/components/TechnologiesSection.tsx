@@ -1,8 +1,9 @@
-import { FaAngular, FaAws, FaGitAlt, FaJava, FaReact } from "react-icons/fa"
+import { FaAngular, FaAws, FaGitAlt, FaJava, FaLaravel, FaReact } from "react-icons/fa"
 import { IoLogoGithub, IoLogoJavascript, IoLogoNodejs } from "react-icons/io"
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { RiNextjsFill, RiTailwindCssFill, RiVuejsLine } from "react-icons/ri"
 import { SiAxios, SiInsomnia, SiMysql, SiPostgresql, SiPostman, SiSpringboot, SiStyledcomponents, SiTypescript } from "react-icons/si"
 import { IconContainer } from "./IconContainer"
+import { MdOutlinePhp } from "react-icons/md"
 
 export const TechnologiesSection = () => {
   return (
@@ -48,8 +49,23 @@ export const TechnologiesSection = () => {
           </IconContainer>
 
           <IconContainer>
+            <RiVuejsLine className="text-icons text-green-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Vue.js</p>
+          </IconContainer>
+
+          <IconContainer>
+            <FaLaravel className="text-icons text-red-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">Laravel</p>
+          </IconContainer>
+
+          <IconContainer>
             <IoLogoNodejs className="text-icons text-green-600 transition-all ease-in-out duration-500"/>
             <p className="text-primary-blue text-sm">Node.js</p>
+          </IconContainer>
+
+          <IconContainer>
+            <MdOutlinePhp className="text-icons text-purple-500 transition-all ease-in-out duration-500"/>
+            <p className="text-primary-blue text-sm">PHP</p>
           </IconContainer>
 
           <IconContainer>
