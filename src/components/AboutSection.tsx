@@ -16,8 +16,8 @@ export const AboutSection = () => {
       </div>
       <div className="flex flex-col items-center justify-center w-[600px] text-center gap-y-5 max675:w-[550px] max620:w-[500px] max550:w-[450px] max480:w-[400px] max425:w-[350px] max425:gap-y-2 max375:w-[300px]">
         <h2 className="text-title font-semibold text-primary-blue tracking-[2px] max700:text-[2.5rem] max480:text-[2rem]">Sobre mim</h2>
-        <p className="text-[1.1rem] tracking-wide max700:text-[1rem] max700:tracking-[0px] max425:text-[15px] max400:text-[14px]">Meu nome é Thiago, tenho 23 anos e sou um Desenvolvedor Full Stack fascinado por tecnologia. Iniciei minha trajetória na programação com Python, mas logo migrei para o universo JavaScript, onde dediquei mais de um ano de estudos em frameworks e ferramentas como React, Vue.js e Next.js.</p>
-        <p className="text-[1.1rem] tracking-wide max700:text-[1rem] max700:tracking-[0px] max425:text-[15px] max400:text-[14px]">Após essa experiência mais voltada para o Front End, entendi que estava na hora de ampliar minhas habilidades. Atualmente, estou aprimorando meus conhecimentos em Node.js, Laravel e Java.</p>
+        <p className="text-[1.1rem] tracking-wide max700:text-[1rem] max700:tracking-[0px] max425:text-[15px] max400:text-[14px]">Desenvolvedor Full Stack com experiência em Front-End (JavaScript, TypeScript, React, Vue) e Back-End (Node.js, Java, Docker, MongoDB). Atualmente, estagiário no setor de desenvolvimento da Fortics Tecnologia, colaborando na documentação, testes e requisitos.</p>
+        <p className="text-[1.1rem] tracking-wide max700:text-[1rem] max700:tracking-[0px] max425:text-[15px] max400:text-[14px]">Cursando o último semestre da graduação, busco constantemente aprimorar minhas habilidades, criando soluções escaláveis e eficientes.</p>
         <SocialMediaLinkAlt
         href="/assets/Thiago.pdf"
         icon={FaFileAlt}
