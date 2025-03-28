@@ -39,12 +39,13 @@ const config: Config = {
         'icons': '2.5rem'
       },
       colors: {
-      'primary-blue': '#004D99',
-      'turq-blue': '#00B2E2',
-      'light-coral': '#FF6F61',
       'med-gray': '#B0BEC5',
       'white': '#ffffff',
-      'sec-white': '#f5f5f5',
+      'main-color': '#0A0A0A',
+      'prim-text': '#F5F5F5',
+      'sec-text': '#A3A3A3',
+      'details': '#D1D1D1',
+      'dark-gray': '#1F1F1F',
     },
   },
 },
