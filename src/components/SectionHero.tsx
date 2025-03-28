@@ -4,11 +4,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const SectionHero = () => {
   return (
-    <section id="inicio" className="w-full min-h-screen flex justify-around items-center mt-10 max1000:flex-col max1000:mt-28">
+    <section id="inicio" className="w-full min-h-screen flex justify-center items-center mt-10 gap-x-20 max1000:flex-col max1000:mt-28">
       <div className="flex flex-col justify-center items-center mb-12">
-        <p className="flex text-[2.8rem] font-light max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Thiago Sousa</p>
-        <p className="text-6xl text-medium-blue font-extrabold text-primary-blue max1070:text-[3rem] max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Software Developer</p>
-        <p className="flex text-xl text-primary-blue opacity-65 max620:text-[1.2rem] max575:text-[1rem] max575:text-center max480:flex-wrap max400:text-[15px] max375:text-[14px] max367:hidden">Desenvolvedor apaixonado por tecnologia e inovação.</p>
+        <p className="flex text-[2.8rem] font-light text-[#F5F5F5] max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Thiago Sousa</p>
+        <p className="text-6xl text-medium-blue font-extrabold text-[#F5F5F5] max1070:text-[3rem] max620:text-[2.5rem] max500:text-[2rem] max400:text-[1.5rem]">Software Developer</p>
+        <p className="flex text-xl text-details pt-2 opacity-65 max620:text-[1.2rem] max575:text-[1rem] max575:text-center max480:flex-wrap max400:text-[15px] max375:text-[14px] max367:hidden">Desenvolvedor Full Stack apaixonado por tecnologia</p>
         <div className="flex items-center justify-center gap-24 pt-8 text-center max520:gap-12">
           <SocialMediaLink
             href="https://github.com/thiagodeas"
@@ -21,11 +21,11 @@ export const SectionHero = () => {
             LinkedIn
           </SocialMediaLink>
         </div>
-        <div className="w-[600px] h-0 border-b-8 border-double border-light-coral mt-12 max675:hidden"></div>
+        <div className="w-[600px] h-0 border-b-8 border-double border-details mt-12 max675:hidden"></div>
       </div>
       <div className="flex items-center justify-center transform rotate-3">
         <Image
-          src="/assets/profile.jpeg"
+          src="/assets/codingg.svg"
           alt="my-profile"
           width={400}
           height={400}
