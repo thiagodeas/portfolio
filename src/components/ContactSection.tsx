@@ -1,13 +1,11 @@
 import Image from "next/image";
 import { CgMail } from "react-icons/cg";
-import { CiYoutube } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
-import { TbBrandYoutube } from "react-icons/tb";
 
 export const ContactSection = () => {
   return (
-    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col" data-aos="zoom-in-up">
+    <section id="contato" className="w-full min-h-screen flex justify-center items-center relative max1000:flex-col" data-aos="fade-up">
       <div className="flex items-center justify-center flex-col">
         <h2 className="text-center text-title font-bold text-prim-text pb-3 max700:text-[2.5rem] max700:mt-8 max367:text-[2rem]">Entre em contato</h2>
         <p className="text-center text-xl text-details opacity-65 pb-3 max575:text-[18px] max500:text-[1rem] max375:hidden">Sinta-se à vontade para entrar em contato comigo =)</p>

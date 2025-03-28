@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutSection = () => {
   return (
-    <section id="sobre" className="flex w-full min-h-screen items-center justify-center gap-x-20 max1070:flex-col-reverse" data-aos="zoom-in-up">
+    <section id="sobre" className="flex w-full min-h-screen items-center justify-center gap-x-20 max1070:flex-col-reverse" data-aos="fade-up">
       <div className="max1070:mt-0">
       <Image
           src="/assets/profile.jpeg"
