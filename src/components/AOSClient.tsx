@@ -1,4 +1,3 @@
-// components/AOSClient.tsx
 'use client';
 
 import { useEffect } from 'react';
@@ -11,7 +10,10 @@ export const AOSClient = () => {
       duration: 900,
       easing: 'ease-in-out',
       once: false,
+      offset: 100,
     });
+
+    AOS.refresh();
   }, []);
 
   return null;

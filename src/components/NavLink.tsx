@@ -1,7 +1,7 @@
 "use client";
 
-import { ReactNode } from "react";
-import { scroller } from 'react-scroll';
+import { ReactNode, useEffect, useState } from "react";
+import { scroller } from "react-scroll";
 
 interface NavLinkProps {
   href: string;
@@ -9,12 +9,22 @@ interface NavLinkProps {
 }
 
 export const NavLink = ({ href, children }: NavLinkProps) => {
+  const [headerHeight, setHeaderHeight] = useState(0);
+
+  useEffect(() => {
+    const header = document.querySelector("header");
+    if (header) {
+      setHeaderHeight(header.clientHeight);
+    }
+  }, []);
+
   const handleScroll = (e: React.MouseEvent) => {
     e.preventDefault();
+
     scroller.scrollTo(href, {
-      duration: 700,
-      smooth: true,
-      offset: -270,
+      duration: 800,
+      smooth: "easeInOutQuart",
+      offset: -(headerHeight + 20),
     });
   };
 
