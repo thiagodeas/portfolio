@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={montserrat.className}>
+      <body className={`${montserrat.className} bg-main-color`}>
         <Header />
         <AOSClient />
         {children}
