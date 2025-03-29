@@ -6,7 +6,7 @@ export const ProjectsSection = () => {
   
   return (
     <section id="projetos" className="w-full min-h-screen flex flex-col justify-center items-center pb-20 px-4" data-aos="fade-up">
-      <h2 className="text-title font-semibold text-prim-text tracking-[2px] text-center mt-12 p-14 max400:text-[2.5rem]">
+      <h2 className="text-title font-semibold text-prim-text tracking-[2px] text-center mt-12 p-14 max480:text-[2.5rem]">
         Projetos
       </h2>
       <div className="flex items-center justify-center gap-24 flex-wrap">
