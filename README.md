@@ -14,12 +14,11 @@ Bem-vindo ao repositório do meu portfólio pessoal, desenvolvido com Next.js e 
 ## Objetivos do Projeto 💡
 
 - Demonstrar minhas habilidades técnicas em desenvolvimento frontend.
-- Apresentar uma interface moderna e intuitiva para potenciais empregadores e colaboradores.
+- Apresentar uma interface moderna e intuitiva.
 - Servir como um ponto centralizado para acesso às minhas redes sociais e projetos.
 
 ## Contato 📞
 
-- **Nome**: Thiago De Sousa Alves
 - **Email**: [sousaalvesth@gmail.com](mailto:sousaalvesth@gmail.com)
 - **LinkedIn**: [linkedin.com/in/thiagodsousa/](https://linkedin.com/in/thiagodeas)
 - **GitHub**: [github.com/thiagodeas](https://github.com/thiagodeas)
