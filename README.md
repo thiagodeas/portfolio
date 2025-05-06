@@ -24,5 +24,6 @@ Bem-vindo ao repositório do meu portfólio pessoal, desenvolvido com Next.js e 
 - **GitHub**: [github.com/thiagodeas](https://github.com/thiagodeas)
 
 ---
+Acesse: https://my-portfolio-lp.vercel.app/
 
 Obrigado por visitar o meu portfólio! Fique à vontade para explorar e entrar em contato. 
