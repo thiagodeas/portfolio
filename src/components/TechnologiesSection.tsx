@@ -1,7 +1,7 @@
 import { FaAngular, FaAws, FaDocker, FaGitAlt, FaJava, FaLaravel, FaReact } from "react-icons/fa"
 import { IoLogoGithub, IoLogoJavascript, IoLogoNodejs } from "react-icons/io"
 import { RiNextjsFill, RiTailwindCssFill, RiVuejsLine } from "react-icons/ri"
-import { SiAxios, SiInsomnia, SiMongodb, SiMysql, SiPostgresql, SiPostman, SiSpringboot, SiStyledcomponents, SiTypescript } from "react-icons/si"
+import { SiAxios, SiExpress, SiFastify, SiInsomnia, SiMongodb, SiMysql, SiPostgresql, SiPostman, SiSpringboot, SiStyledcomponents, SiTypescript } from "react-icons/si"
 import { IconContainer } from "./IconContainer"
 import { MdOutlinePhp } from "react-icons/md"
 import { SiNestjs } from "react-icons/si";
@@ -41,6 +41,16 @@ export const TechnologiesSection = () => {
           </IconContainer>
 
           <IconContainer>
+            <SiExpress className="text-icons text-prim-text transition-all ease-in-out duration-500"/>
+            <p className="text-details text-sm">Express</p>
+          </IconContainer>
+
+          <IconContainer>
+            <SiFastify className="text-icons text-prim-text transition-all ease-in-out duration-500"/>
+            <p className="text-details text-sm">Fastify</p>
+          </IconContainer>
+
+          <IconContainer>
             <SiNestjs className="text-icons text-red-500 transition-all ease-in-out duration-500"/>
             <p className="text-details text-sm">NestJS</p>
           </IconContainer>
@@ -58,6 +68,11 @@ export const TechnologiesSection = () => {
           <IconContainer>
             <MdOutlinePhp className="text-icons text-purple-500 transition-all ease-in-out duration-500"/>
             <p className="text-details text-sm">PHP</p>
+          </IconContainer>
+
+          <IconContainer>
+            <FaLaravel className="text-icons text-red-500 transition-all ease-in-out duration-500"/>
+            <p className="text-details text-sm">Laravel</p>
           </IconContainer>
 
           <IconContainer>
@@ -79,12 +94,6 @@ export const TechnologiesSection = () => {
             <SiPostgresql className="text-icons text-blue-500 transition-all ease-in-out duration-500"/>
             <p className="text-details text-sm">Postgresql</p>
           </IconContainer>
-
-          <IconContainer>
-            <FaAws className="text-icons text-prim-text transition-all ease-in-out duration-500"/>
-            <p className="text-details text-sm">AWS</p>
-          </IconContainer>
-
         </div>
       </div>
     </section>
