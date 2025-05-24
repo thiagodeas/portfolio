@@ -50,7 +50,6 @@ export const ProjectsSection = () => {
             title="stock-manager"
             images={[
               { src: "/assets/api-laravel.png", alt: "Page 1"},
-              { src: "/assets/login-page-p2.png", alt: "Page 2"},
             ]}
             description="Sistema de gerenciamento de estoque para registro de produtos, rastreamento de inventário e geração de relatórios em PDF."
             frontend="Front End: React + Inteligência Artificial."
