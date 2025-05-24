@@ -43,18 +43,18 @@ export const ProjectsSection = () => {
             ]}
             description="Aplicação Full Stack que gera um currículo minimalista em PDF através dos dados do usuário."
             frontend="Front End: React, TypeScript e Styled Components."
-            backend="Back End: Java e Spring Boot."
+            backend="Back End: Java, Spring Boot, Docker e JUnit."
         />
 
         <ProjectCard
-            title="login-page"
+            title="stock-manager"
             images={[
-              { src: "/assets/login-page-p1.png", alt: "Page 1"},
+              { src: "/assets/api-laravel.png", alt: "Page 1"},
               { src: "/assets/login-page-p2.png", alt: "Page 2"},
             ]}
-            description="Aplicação FullStack de uma página de Login com autenticação."
-            frontend="Front End: TypeScript, Angular e SCSS."
-            backend="Back End: Java, Spring Boot, PostgreSQL e JWT para autenticação."
+            description="Sistema de gerenciamento de estoque para registro de produtos, rastreamento de inventário e geração de relatórios em PDF."
+            frontend="Front End: React + Inteligência Artificial."
+            backend="Back End: PHP, Laravel, MySQL, Docker e PHPUnit."
         />  
       </div>
     </section>
